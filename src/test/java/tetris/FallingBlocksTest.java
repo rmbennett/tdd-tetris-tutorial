@@ -31,13 +31,13 @@ public class FallingBlocksTest extends Assert {
                     "...\n", board.toString());
         }
 
-//        @Test
-//        public void has_no_falling_blocks() {
-//            assertFalse(board.hasFalling());
-//        }
+        @Test
+        public void has_no_falling_blocks() {
+            assertFalse(board.hasFalling());
+        }
     }
 
-/*
+
     public class When_a_block_is_dropped {
 
         @Before
@@ -50,13 +50,13 @@ public class FallingBlocksTest extends Assert {
             assertTrue(board.hasFalling());
         }
 
-//        @Test
-//        public void it_starts_from_the_top_middle() {
-//            assertEquals("" +
-//                    ".X.\n" +
-//                    "...\n" +
-//                    "...\n", board.toString());
-//        }
+        @Test
+        public void it_starts_from_the_top_middle() {
+            assertEquals("" +
+                    ".X.\n" +
+                    "...\n" +
+                    "...\n", board.toString());
+        }
 
 //        @Test
 //        public void it_moves_down_one_row_per_tick() {
@@ -81,7 +81,7 @@ public class FallingBlocksTest extends Assert {
 //                    "...\n", board.toString());
 //        }
     }
-*/
+
 
 /*
     public class When_a_block_reaches_the_bottom {
